@@ -12,51 +12,78 @@ yellow #e4c22a
 html {
 	font-family: 'Noto Sans', sans-serif;
 	box-sizing: border-box;
-	margin: 0;
+	margin: auto 0;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
 }
 
 body {
 	margin: 0;
 }
-*, *::before, *::after {
-	box-sizing: inherit;
-}
 
-nav ul {
-	list-style-type: none;
-}
-
-
-.header-div {
+header {
+	margin: auto;
 	text-align: center;
 	text-shadow:0 2px 3px rgba(0, 0, 0, 200);
 	padding-bottom: 1em;
 	background-color: #e7001d;
+	padding-top: 1em;
 	position: relative;
 }
+
+
 
 h1 {
 	margin-top: 0;
 	margin-bottom: 0;
 	color: white;
-	padding-top: 0.5em;
 	font-size: 3.5rem;
-	z-index: 2;
+	position: absolute;
+	display: block;
+	width: 100%;
+	text-align: center;
+	bottom: 10px;
+
 	}
 
 .medallion {
-	position: absolute;
-	width: 100px;
-	display: block;
-	top: 2em;
-	left: 42.5%;
-	z-index: 1;
+width: 100px;
+position: relative;
 }
 
 .chinese-zodiac {
 	margin-top: 0;
 	font-size: 1rem;
 }
+
+nav ul {
+	list-style-type: none;
+		padding-left: 0;
+		margin:0;
+}
+
+nav ul li {
+	background-color: #222222;
+
+}
+
+img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .dragon {
 	background-color: #e4c22a;
@@ -76,6 +103,11 @@ h1 {
 	background-color: #e4c22a;
 }
 
+h2 {
+ text-align: center;
+ font-style: italic;
+}
+
 h3 {
 	margin: 0;
 	padding: 1em 0;
@@ -86,4 +118,15 @@ h3 {
 	padding: 1em 0;
 	text-align: center;
 	font-style: italic;
+}
+
+footer {
+	background-color: #222222;
+	padding: 1em 0;
+}
+
+.backtotop {
+	color: white;
+	text-decoration: underline;
+	text-align: center;
 }
