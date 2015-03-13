@@ -7,6 +7,8 @@ yellow #e4c22a
 */
 
 
+/*position relative and overflow hidden for banner*/
+
 html {
 	font-family: 'Noto Sans', sans-serif;
 	box-sizing: border-box;
@@ -27,9 +29,10 @@ nav ul {
 
 .header-div {
 	text-align: center;
-	text-shadow:0 2px 3px rgba(0, 0, 0, 256);
+	text-shadow:0 2px 3px rgba(0, 0, 0, 200);
 	padding-bottom: 1em;
 	background-color: #e7001d;
+	position: relative;
 }
 
 h1 {
@@ -37,4 +40,50 @@ h1 {
 	margin-bottom: 0;
 	color: white;
 	padding-top: 0.5em;
+	font-size: 3.5rem;
+	z-index: 2;
 	}
+
+.medallion {
+	position: absolute;
+	width: 100px;
+	display: block;
+	top: 2em;
+	left: 42.5%;
+	z-index: 1;
+}
+
+.chinese-zodiac {
+	margin-top: 0;
+	font-size: 1rem;
+}
+
+.dragon {
+	background-color: #e4c22a;
+}
+
+.goat {
+	background-color: #222222;
+	color: white;
+}
+
+.rooster {
+	background-color: #e7001d;
+	color: white;
+}
+
+.ox {
+	background-color: #e4c22a;
+}
+
+h3 {
+	margin: 0;
+	padding: 1em 0;
+	text-align: center;
+}
+.h3-p {
+	margin: 0;
+	padding: 1em 0;
+	text-align: center;
+	font-style: italic;
+}
