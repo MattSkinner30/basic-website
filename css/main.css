@@ -8,6 +8,7 @@ yellow #e4c22a
 
 
 /*position relative and overflow hidden for banner*/
+/* if something has a width you can add margin: 0 auto; fixes everything!!!!*/
 
 html {
 	font-family: 'Noto Sans', sans-serif;
@@ -24,7 +25,6 @@ body {
 }
 
 header {
-	margin: auto;
 	text-align: center;
 	text-shadow:0 2px 3px rgba(0, 0, 0, 200);
 	padding-bottom: 1em;
@@ -33,6 +33,10 @@ header {
 	position: relative;
 }
 
+.medallion {
+width: 100px;
+position: relative;
+}
 
 h1 {
 	margin-top: 0;
@@ -44,18 +48,19 @@ h1 {
 	width: 100%;
 	text-align: center;
 	bottom: 10px;
-
-	}
-
-.medallion {
-width: 100px;
-position: relative;
 }
+
 
 .chinese-zodiac {
 	margin-top: 0;
 	font-size: 1rem;
 }
+
+
+
+
+
+
 
 nav ul {
 	list-style-type: none;
@@ -65,13 +70,30 @@ nav ul {
 
 nav ul li {
 	background-color: #222222;
+}
 
+nav ul li a {
+	text-decoration: none;
+	color: white;
 }
 
 img {
 	width: 100%;
 }
 
+.topnav {
+	display: block;
+	margin: 0;
+}
+
+.bottomnav {
+	display: block;
+	margin: 0;
+}
+
+.bottomnav, .topnav {
+	text-align: center;
+}
 
 
 
@@ -79,27 +101,63 @@ img {
 
 
 
+.main-p {
+	padding: 0 0.75em;
+}
+
+/*figure {
+	width: 100%;
+	clear: both;
+	margin: 0;
+}
+
+.dragon-symbol, .goat-icon, .rooster-symbol, .ox-icon {
+	/*float: left;*/
+	/*width: 40%;
+	position: relative;
+	left: 10%;
+
+}
+
+.dragon-icon, .goat-symbol, .rooster-icon, .ox-symbol {
+	/*float: right;*/
+	/*width: 40%;
+	position: relative;
+	left: 10%;
+}*/
 
 
 
+.dragon-symbol, .goat-icon, .rooster-symbol, .ox-icon {
+	float: left;
+	width: 40%;
+}
 
+.dragon-icon, .goat-symbol, .rooster-icon, .ox-symbol {
+	float: right;
+	width: 40%;
+}
 
 .dragon {
 	background-color: #e4c22a;
+	overflow: hidden;
 }
 
 .goat {
 	background-color: #222222;
 	color: white;
+	overflow: hidden;
 }
 
 .rooster {
 	background-color: #e7001d;
 	color: white;
+	overflow: hidden;
 }
 
 .ox {
 	background-color: #e4c22a;
+	overflow: hidden;
 }
 
 h2 {
@@ -121,6 +179,10 @@ h3 {
 	padding: 1em 0;
 	text-align: center;
 	font-style: italic;
+	clear: both;
+	font-size: 90%;
+	padding-left: 0.25rem;
+	padding-bottom: 2em;
 }
 
 footer {
