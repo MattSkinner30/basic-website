@@ -64,12 +64,14 @@ h1 {
 
 nav ul {
 	list-style-type: none;
-		padding-left: 0;
-		margin: 0;
+	background-color: #222222;
+	padding-left: 0;
+	margin: 0;
 }
 
 nav ul li {
 	background-color: #222222;
+	display: inline-block;
 }
 
 nav ul li a {
@@ -93,6 +95,13 @@ img {
 
 .bottomnav, .topnav {
 	text-align: center;
+}
+
+.li-dragon {
+	float: left;
+}
+.li-rooster {
+	float: left;
 }
 
 
