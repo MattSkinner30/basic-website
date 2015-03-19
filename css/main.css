@@ -179,34 +179,30 @@ nav ul li a {
 	overflow: hidden;
 }
 
-
-.div-banner {
+.outer-div {
+	clear: both;
+}
+.banner-div {
 	position: relative;
 }
-
-
 h2 {
  text-align: center;
  font-style: italic;
  text-shadow:0 2px 3px rgba(0, 0, 0, 200);
  color: white;
  position: absolute;
- bottom: 5%;
+ bottom: 8%;
  width: 100%;
  font-weight: normal;
  font-size: 2rem;
- margin: 0;
+ margin: 0 auto;
+ display: block;
 }
 
 .banner {
 	width: 100%;
+	position: relative;
 }
-
-
-
-
-
-
 
 
 h3 {
