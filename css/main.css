@@ -63,49 +63,57 @@ h1 {
 
 
 nav ul {
-	list-style-type: none;
-	background-color: #222222;
-	padding-left: 0;
 	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	display: block;
 }
 
 nav ul li {
+		display: block;
+	border: 1px solid black;
+	width: 50%;
+	float: left;
 	background-color: #222222;
-	display: inline-block;
 }
 
 nav ul li a {
 	text-decoration: none;
 	color: white;
-}
-
-img {
-	width: 100%;
-}
-
-.topnav {
 	display: block;
 	margin: 0;
-}
-
-.bottomnav {
-	display: block;
-	margin: 0;
-}
-
-.bottomnav, .topnav {
-	text-align: center;
-}
-
-.li-dragon {
-	float: left;
-}
-.li-rooster {
-	float: left;
+	padding: .5em 0 .5em .5em;
 }
 
 
 
+.li-dragon:hover{
+	background-color: #e4c22a;
+}
+.a-dragon:hover {
+	color: black;
+}
+
+.li-goat:hover{
+	background-color: white;
+}
+.a-goat:hover {
+	color: black;
+}
+
+.li-rooster:hover{
+	background-color: #e7001d;
+}
+.a-rooster:hover {
+	color: black;
+}
+.a-ox:hover {
+	color: black;
+}
+.li-ox:hover{
+	background-color: #e4c22a;
+}
 
 
 
@@ -137,14 +145,18 @@ img {
 
 
 
+img {
+	width: 100%;
+}
+
 .dragon-symbol, .goat-icon, .rooster-symbol, .ox-icon {
 	float: left;
-	width: 40%;
+	width: 50%;
 }
 
 .dragon-icon, .goat-symbol, .rooster-icon, .ox-symbol {
 	float: right;
-	width: 40%;
+	width: 50%;
 }
 
 .dragon {
@@ -196,11 +208,12 @@ h3 {
 
 footer {
 	background-color: #222222;
-	padding: 1em 0;
+	padding: .5em 0;
 }
 
 .backtotop {
 	color: white;
 	text-decoration: underline;
 	text-align: center;
+	font-size: 75%;
 }
