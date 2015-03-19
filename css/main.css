@@ -122,9 +122,6 @@ nav ul li a {
 	padding: 0 0.75em;
 }
 
-figure {
-	width: 50%;
-}
 
 /*figure {
 	width: 100%;
@@ -148,29 +145,17 @@ figure {
 }*/
 
 
-
-img {
-	width: 100%;
-}
-/*
 .dragon-symbol, .goat-icon, .rooster-symbol, .ox-icon {
 	float: left;
-	width: 100%;
+	width: 50%;
 }
 
 .dragon-icon, .goat-symbol, .rooster-icon, .ox-symbol {
 	float: right;
-	width: 100%;
-} */
-
-.figure-left {
-float: left;
-width: 50%;
-}
-
-.figure-right {
 	width: 50%;
 }
+
+
 
 .dragon {
 	background-color: #e4c22a;
@@ -194,14 +179,35 @@ width: 50%;
 	overflow: hidden;
 }
 
+
+.div2 {
+	position: relative;
+}
+
+
 h2 {
  text-align: center;
  font-style: italic;
+ text-shadow:0 2px 3px rgba(0, 0, 0, 200);
+ color: white;
+ position: absolute;
+ bottom: 5%;
+ width: 100%;
+ font-weight: normal;
+ font-size: 2rem;
+ margin: 0;
 }
 
 .banner {
-	position: relative;
+	width: 100%;
 }
+
+
+
+
+
+
+
 
 h3 {
 	margin: 0;
