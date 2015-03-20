@@ -135,12 +135,12 @@ nav ul li a {
 
 .dragon-symbol, .goat-icon, .rooster-symbol, .ox-icon {
 	float: left;
-	width: 50%;
+	max-width: 50%;
 }
 
 .dragon-icon, .goat-symbol, .rooster-icon, .ox-symbol {
 	float: right;
-	width: 50%;
+	max-width: 50%;
 }
 
 .dragon {
