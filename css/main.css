@@ -50,17 +50,10 @@ h1 {
 	bottom: 10px;
 }
 
-
 .chinese-zodiac {
 	margin-top: 0;
 	font-size: 1rem;
 }
-
-
-
-
-
-
 
 nav ul {
 	margin: 0;
@@ -85,8 +78,6 @@ nav ul li a {
 	margin: 0;
 	padding: .5em 0 .5em .5em;
 }
-
-
 
 .li-dragon:hover{
 	background-color: #e4c22a;
@@ -114,9 +105,6 @@ nav ul li a {
 .li-ox:hover{
 	background-color: #e4c22a;
 }
-
-
-
 
 .main-p {
 	padding: 0 0.75em;
@@ -154,8 +142,6 @@ nav ul li a {
 	float: right;
 	width: 50%;
 }
-
-
 
 .dragon {
 	background-color: #e4c22a;
@@ -203,7 +189,6 @@ h2 {
 	width: 100%;
 	position: relative;
 }
-
 
 h3 {
 	margin: 0;
