@@ -22,6 +22,7 @@ html {
 
 body {
 	margin: 0;
+	padding-bottom: 0;
 }
 
 header {
@@ -110,29 +111,6 @@ nav ul li a {
 	padding: 0 0.75em;
 }
 
-
-/*figure {
-	width: 100%;
-	clear: both;
-	margin: 0;
-}
-
-.dragon-symbol, .goat-icon, .rooster-symbol, .ox-icon {
-	/*float: left;*/
-	/*width: 40%;
-	position: relative;
-	left: 10%;
-
-}
-
-.dragon-icon, .goat-symbol, .rooster-icon, .ox-symbol {
-	/*float: right;*/
-	/*width: 40%;
-	position: relative;
-	left: 10%;
-}*/
-
-
 .dragon-symbol, .goat-icon, .rooster-symbol, .ox-icon {
 	float: left;
 	max-width: 50%;
@@ -209,6 +187,7 @@ h3 {
 footer {
 	background-color: #222222;
 	padding: .5em 0;
+	margin: 0;
 }
 
 .backtotop {
